@@ -1,0 +1,449 @@
+"","Package","LibPath","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","MD5sum","NeedsCompilation","Built"
+"abind","abind","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4-5",NA,"R (>= 1.5.0)","methods, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"arm","arm","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.13-1",NA,"R (>= 3.1.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)","abind, coda, graphics, grDevices, methods, nlme, utils",NA,NA,NA,"GPL (> 2)",NA,NA,NA,NA,"no","4.2.2"
+"ash","ash","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-15",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"askpass","askpass","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"assertthat","assertthat","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.1",NA,NA,"tools",NA,"testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"backports","backports","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"base64enc","base64enc","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1-3",NA,"R (>= 2.9.0)",NA,NA,NA,"png","GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"BH","BH","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.81.0-1",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.2.2"
+"bit","bit","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","4.0.5",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"bitops","bitops","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-7",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"BMA","BMA","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.18.17",NA,"survival, leaps, robustbase, inline, rrcov","methods",NA,"MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"brew","brew","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-8",NA,NA,NA,NA,"testthat (>= 3.0.0)",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"brio","brio","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.3",NA,NA,NA,NA,"covr, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"bslib","bslib","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.1",NA,"R (>= 2.10)","grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),
+jquerylib (>= 0.1.3), rlang, cachem, memoise (>= 2.0.1)",NA,"shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+testthat, withr, rappdirs, curl, magrittr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"cachem","cachem","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.6",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"callr","callr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.7.3",NA,"R (>= 3.4)","processx (>= 3.6.1), R6, utils",NA,"asciicast, cli (>= 1.1.0), covr, mockery, ps, rprojroot,
+spelling, testthat (>= 3.0.0), withr (>= 2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"caret","caret","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","6.0-93",NA,"ggplot2, lattice (>= 0.20), R (>= 3.2.0)","e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2),
+nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4,
+utils, withr (>= 2.0.0)",NA,"BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
+ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr,
+MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party
+(>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown,
+rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis
+(>= 0.1.3)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"checkmate","checkmate","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.1.0",NA,"R (>= 3.0.0)","backports (>= 1.1.0), utils",NA,"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+3.0.4), tinytest (>= 1.1.0), tibble",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"classInt","classInt","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4-8",NA,"R (>= 2.2)","grDevices, stats, graphics, e1071, class, KernSmooth",NA,"spData (>= 0.2.6.2), units, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"cli","cli","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.4.1",NA,"R (>= 3.4)","utils",NA,"callr, covr, digest, glue (>= 1.6.0), grDevices, htmltools,
+htmlwidgets, knitr, methods, mockery, processx, ps (>=
+1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+rstudioapi, testthat, tibble, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"clipr","clipr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.8.0",NA,NA,"utils",NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"clisymbols","clisymbols","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"clock","clock","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.6.1",NA,"R (>= 3.4)","rlang (>= 1.0.4), tzdb (>= 0.3.0), vctrs (>= 0.4.1)","cpp11 (>= 0.4.2), tzdb (>= 0.3.0)","covr, knitr, magrittr, pillar, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"cmprsk","cmprsk","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.2-11",NA,"R (>= 3.0.0), survival",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"coda","coda","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.19-4",NA,"R (>= 2.14.0)","lattice",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"colorspace","colorspace","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0-3",NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"commonmark","commonmark","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.8.1",NA,NA,NA,NA,"curl, testthat, xml2",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"cpp11","cpp11","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.3",NA,NA,NA,NA,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat, tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"crayon","crayon","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.5.2",NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"cyclocomp","cyclocomp","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,NA,"callr, crayon, desc, remotes, withr",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"data.table","data.table","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.14.6",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"DBI","DBI","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.3",NA,"methods, R (>= 3.0.0)",NA,NA,"blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms,
+knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>=
+1.1-2), testthat, xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
+"dcurver","dcurver","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9.2",NA,NA,"Rcpp (>= 0.12.14)","Rcpp, RcppArmadillo","testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"debugme","debugme","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,NA,"crayon, grDevices",NA,"covr, mockery, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"deldir","deldir","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-6",NA,"R (>= 3.5.0)","graphics, grDevices",NA,"polyclip",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"DEoptimR","DEoptimR","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-11",NA,NA,"stats",NA,NA,"robustbase","GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"Deriv","Deriv","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","4.1.3",NA,NA,"methods",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
+"desc","desc","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4.2",NA,"R (>= 3.4)","cli, R6, rprojroot, utils",NA,"callr, covr, gh, spelling, testthat, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"deSolve","deSolve","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.34",NA,"R (>= 3.3.0)","methods, graphics, grDevices, stats",NA,"scatterplot3d, FME",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"dfidx","dfidx","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.0-5",NA,"R (>= 2.10)","dplyr, Formula",NA,"knitr, rmarkdown, AER, mlogit, plm",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"diffobj","diffobj","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.5",NA,"R (>= 3.1.0)","crayon (>= 1.3.2), tools, methods, utils, stats",NA,"knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"digest","digest","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.6.30",NA,"R (>= 3.3.0)","utils",NA,"tinytest, simplermarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"doParallel","doParallel","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.17",NA,"R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
+parallel, utils",NA,NA,"caret, mlbench, rpart, RUnit","compiler","GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"dotCall64","dotCall64","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-2",NA,"R (>= 3.1)",NA,NA,"microbenchmark, OpenMPController, RColorBrewer, roxygen2,
+spam, testthat,",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"downlit","downlit","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.2",NA,"R (>= 3.4.0)","brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs,
+withr, yaml",NA,"covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload,
+rmarkdown, testthat (>= 3.0.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"dplyr","dplyr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.10",NA,"R (>= 3.4.0)","generics, glue (>= 1.3.2), lifecycle (>= 1.0.1), magrittr (>=
+1.5), methods, R6, rlang (>= 1.0.2), tibble (>= 2.1.3),
+tidyselect (>= 1.1.1), utils, vctrs (>= 0.4.1), pillar (>=
+1.5.1)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), ggplot2,
+knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+rmarkdown, RMySQL, RPostgreSQL, RSQLite, testthat (>= 3.1.1),
+tidyr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"e1071","e1071","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.7-12",NA,NA,"graphics, grDevices, class, stats, methods, utils, proxy",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS, slam",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"ellipsis","ellipsis","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.2",NA,"R (>= 3.2)","rlang (>= 0.3.0)",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"Epi","Epi","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.47",NA,"R (>= 3.5.0), utils","cmprsk, etm, splines, MASS, survival, plyr, dplyr, Matrix,
+numDeriv, data.table, zoo, mgcv, magrittr",NA,"mstate, nlme, lme4, demography, popEpi, tidyr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"etm","etm","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,"R (>= 3.0.0)","survival, lattice, data.table, Rcpp (>= 0.11.4)","Rcpp, RcppArmadillo","ggplot2, kmi, geepack",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"evaluate","evaluate","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.18",NA,"R (>= 3.0.2)","methods",NA,"covr, ggplot2, lattice, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"evd","evd","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.3-6.1",NA,NA,"stats, grDevices, graphics",NA,"interp",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"fansi","fansi","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.3",NA,"R (>= 3.1.0)","grDevices, utils",NA,"unitizer, knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"farver","farver","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.1.1",NA,NA,NA,NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"fastDummies","fastDummies","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.6.3",NA,"R (>= 2.10)","data.table, tibble, stringr",NA,"testthat (>= 2.1.0), knitr, rmarkdown, covr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"fastmap","fastmap","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"fields","fields","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","14.1",NA,"R (>= 3.5.0), methods, spam, viridis","maps",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"FNN","FNN","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.3.1",NA,"R (>= 3.0.0)",NA,NA,"chemometrics, mvtnorm",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"fontawesome","fontawesome","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.0",NA,"R (>= 3.3.0)","rlang (>= 0.4.10), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
+rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"foreach","foreach","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.5.2",NA,"R (>= 2.5.0)","codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.2"
+"Formula","Formula","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2-4",NA,"R (>= 2.0.0), stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"fs","fs","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.5.2",NA,"R (>= 3.1)","methods",NA,"testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,
+rmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"future","future","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.29.0",NA,NA,"digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.32.1), tools, utils",NA,"methods, RhpcBLASctl, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
+"future.apply","future.apply","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.10.0",NA,"R (>= 3.2.0), future (>= 1.28.0)","globals (>= 0.16.1), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"generics","generics","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1.3",NA,"R (>= 3.2)","methods",NA,"covr, pkgload, testthat (>= 3.0.0), tibble, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"ggplot2","ggplot2","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.4.0",NA,"R (>= 3.3)","cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.0.0), scales (>=
+1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>=
+0.7-3), svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr
+(>= 1.0.0), xml2","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"gitcreds","gitcreds","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1.2",NA,"R (>= 3.4)",NA,NA,"codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"globals","globals","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.16.2",NA,"R (>= 3.1.2)","codetools",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
+"glue","glue","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.6.2",NA,"R (>= 3.4)","methods",NA,"covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
+microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,
+testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"gower","gower","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,NA,NA,NA,"tinytest (>= 0.9.3),",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"GPArotation","GPArotation","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2022.10-2",NA,"R (>= 2.0.0)","stats",NA,NA,NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"gridExtra","gridExtra","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.3",NA,NA,"gtable, grid, grDevices, graphics, utils",NA,"ggplot2, egg, lattice, knitr, testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"gtable","gtable","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,"R (>= 3.0)","grid",NA,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"gtools","gtools","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.9.4",NA,"methods, stats, utils",NA,NA,"car, gplots, knitr, rstudioapi, SGP, taxize",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"hardhat","hardhat","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,"R (>= 3.4.0)","glue (>= 1.6.2), rlang (>= 1.0.3), tibble (>= 3.1.7), vctrs
+(>= 0.4.1)",NA,"covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2),
+recipes (>= 0.1.8), rmarkdown (>= 2.3), roxygen2, testthat (>=
+3.0.0), usethis (>= 2.1.5)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"hdrcde","hdrcde","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.4",NA,"R (>= 2.15)","locfit, ash, ks, KernSmooth, ggplot2, RColorBrewer",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"here","here","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,"rprojroot (>= 2.0.2)",NA,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"hexbin","hexbin","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.28.3",NA,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",NA,"marray, affy, Biobase, limma, knitr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"highr","highr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9",NA,"R (>= 3.2.3)","xfun (>= 0.18)",NA,"knitr, markdown, testit",NA,"GPL",NA,NA,NA,NA,"no","4.2.2"
+"HKprocess","HKprocess","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1-1",NA,"R (>= 3.2.3)","MCMCpack (>= 1.3-3), gtools(>= 3.5.0)",NA,"ltsa (>= 1.4.6)",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"Hmisc","Hmisc","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","4.7-2",NA,"lattice, survival (>= 3.1-6), Formula, ggplot2 (>= 2.2)","methods, latticeExtra, cluster, rpart, nnet, foreign, gtable,
+grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis,
+htmltools, base64enc",NA,"acepack, chron, rms, mice, rstudioapi, tables, knitr, plotly
+(>= 4.5.6), rlang, plyr, VGAM",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"hnp","hnp","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2-6",NA,"R (>= 3.0.0), MASS (>= 7.3-35), methods, graphics, stats",NA,NA,"lme4, gamlss, gamlss.dist, pscl, nnet, aods3, VGAM, glmmADMB,
+latticeExtra",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"htmlTable","htmlTable","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.4.1",NA,NA,"stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)",NA,"testthat, XML, xml2, Hmisc, reshape, rmarkdown, chron,
+lubridate, tibble, purrr, tidyselect, glue, rlang, tidyr (>=
+0.7.2), dplyr (>= 0.7.4)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
+"htmltools","htmltools","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.5.3",NA,"R (>= 2.14.1)","utils, digest, grDevices, base64enc, rlang (>= 0.4.10),
+fastmap (>= 1.1.0)",NA,"markdown, testthat, withr, Cairo, ragg, shiny","knitr","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"htmlwidgets","htmlwidgets","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.5.4",NA,NA,"grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",NA,"knitr (>= 1.8), rmarkdown, testthat","shiny (>= 1.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"httpuv","httpuv","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.6.6",NA,"R (>= 2.15.1)","Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)","Rcpp, later","testthat, callr, curl, websocket",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"hunspell","hunspell","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.0.2",NA,"R (>= 3.0.2)","Rcpp, digest","Rcpp (>= 0.12.12)","spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
+stopwords, rmarkdown",NA,"GPL-2 | LGPL-2.1 | MPL-1.1",NA,NA,NA,NA,"yes","4.2.2"
+"ini","ini","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"inline","inline","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.19",NA,NA,"methods",NA,"Rcpp (>= 0.11.0), tinytest",NA,"LGPL",NA,NA,NA,NA,"no","4.2.2"
+"interp","interp","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-3",NA,"R (>= 3.5.0)","Rcpp (>= 0.12.9), deldir","Rcpp, RcppEigen","sp, Deriv, Ryacas, ggplot2, gridExtra, lattice, stringi,
+stringr","RcppEigen","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"ipred","ipred","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9-13",NA,"R (>= 2.10)","rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",NA,"mvtnorm, mlbench, TH.data, randomForest, party",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"isoband","isoband","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.6",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"iterators","iterators","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.14",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.2"
+"jpeg","jpeg","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1-9",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"jquerylib","jquerylib","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1.4",NA,NA,"htmltools",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"jsonlite","jsonlite","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.8.3",NA,"methods",NA,NA,"httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"kernlab","kernlab","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9-31",NA,"R (>= 2.10)","methods, stats, grDevices, graphics",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"knitr","knitr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.41",NA,"R (>= 3.3.0)","evaluate (>= 0.15), highr, methods, stringr (>= 0.6), yaml (>=
+2.1.19), xfun (>= 0.34), tools",NA,"markdown (>= 1.3), formatR, testit, digest, rgl (>=
+0.95.1201), codetools, rmarkdown, htmlwidgets (>= 0.7),
+webshot, tikzDevice (>= 0.10), tinytex, reticulate (>= 1.4),
+JuliaCall (>= 0.11.1), magick, png, jpeg, gifski, xml2 (>=
+1.2.0), httr, DBI (>= 0.4-1), showtext, tibble, sass, bslib,
+ragg, gridSVG, styler (>= 1.2.0), targets (>= 0.6.0)",NA,"GPL",NA,NA,NA,NA,"no","4.2.2"
+"ks","ks","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.14.0",NA,"R (>= 2.10.0)","FNN (>= 1.1), kernlab, KernSmooth (>= 2.22), Matrix, mclust,
+mgcv, multicool, mvtnorm (>= 1.0-0), plot3D, pracma",NA,"geometry, MASS, misc3d (>= 0.4-0), oz, rgl (>= 0.66)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"labeling","labeling","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.2",NA,NA,"stats, graphics",NA,NA,NA,"MIT + file LICENSE | Unlimited",NA,NA,NA,NA,"no","4.2.2"
+"later","later","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.3.0",NA,NA,"Rcpp (>= 0.12.9), rlang","Rcpp","knitr, rmarkdown, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"latticeExtra","latticeExtra","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.6-30",NA,"R (>= 3.6.0), lattice","grid, stats, utils, grDevices, png, jpeg, RColorBrewer,
+interp, MASS",NA,"maps, mapproj, deldir, quantreg, zoo, mgcv",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"lava","lava","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.7.0",NA,"R (>= 3.0)","future.apply, grDevices, graphics, methods, numDeriv,
+progressr, stats, survival, SQUAREM, utils",NA,"KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
+geepack, gof (>= 0.9), graph, knitr, bookdown, rmarkdown,
+igraph (>= 0.6), lava.tobit (>= 0.4.7), lavaSearch2, lme4, mets
+(>= 1.1), nlme, optimx, polycor, quantreg, rgl, R.rsp (>=
+0.40), targeted (>= 0.2), testthat (>= 0.11), visNetwork, zoo",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"lazyeval","lazyeval","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.2",NA,"R (>= 3.1.0)",NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"leaps","leaps","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.1",NA,"",NA,NA,"biglm",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"lifecycle","lifecycle","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.3",NA,"R (>= 3.4)","cli (>= 3.4.0), glue, rlang (>= 1.0.6)",NA,"covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+tibble, tidyverse, tools, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"listenv","listenv","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.8.0",NA,"R (>= 3.1.2)",NA,NA,"R.utils, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
+"lme4","lme4","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-31",NA,"R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)","Rcpp (>= 0.10.5), RcppEigen","knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,
+mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
+merDeriv",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"lmtest","lmtest","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9-40",NA,"R (>= 3.0.0), stats, zoo","graphics",NA,"car, strucchange, sandwich, dynlm, stats4, survival, AER",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"locfit","locfit","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.5-9.6",NA,"R (>= 4.1.0)","lattice",NA,"interp, gam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"lubridate","lubridate","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.9.0",NA,"methods, timechange (>= 0.1.1), R (>= 3.2)","generics",NA,"covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)","chron, data.table, timeDate, tis, zoo","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"magrittr","magrittr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,"R (>= 3.4.0)",NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"maps","maps","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.4.1",NA,"R (>= 3.5.0)","graphics, utils",NA,"mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, rnaturalearth",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"markdown","markdown","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4",NA,"R (>= 2.11.1)","utils, commonmark, xfun, mime (>= 0.3)",NA,"knitr, rmarkdown (>= 2.18), yaml, RCurl",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"MatrixModels","MatrixModels","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.5-1",NA,"R (>= 3.6.0)","stats, methods, Matrix (>= 1.4-2)",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"matrixStats","matrixStats","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.63.0",NA,"R (>= 2.12.0)",NA,NA,"base64enc, ggplot2, knitr, markdown, microbenchmark,
+R.devices, R.rsp",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.2.2"
+"mclust","mclust","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","6.0.0",NA,"R (>= 3.0)","stats, utils, graphics, grDevices",NA,"knitr (>= 1.12), rmarkdown (>= 0.9), mix (>= 1.0), geometry
+(>= 0.3-6), MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"mcmc","mcmc","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9-7",NA,"R (>= 3.0.2)","stats",NA,"xtable, Iso",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"MCMCpack","MCMCpack","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.6-3",NA,"R (>= 3.6), coda (>= 0.11-3), MASS, stats","graphics, grDevices, lattice, methods, utils, mcmc, quantreg",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"memoise","memoise","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0.1",NA,NA,"rlang (>= 0.4.10), cachem",NA,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"mime","mime","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.12",NA,NA,"tools",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.2.2"
+"miniUI","miniUI","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1.1.1",NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"minqa","minqa","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.5",NA,NA,"Rcpp (>= 0.9.10)","Rcpp",NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"mirt","mirt","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.37.1",NA,"stats, R (>= 3.6.0), stats4, lattice, methods","GPArotation, gridExtra, Matrix, Rcpp, mgcv, vegan, Deriv,
+splines, pbapply (>= 1.3-0), dcurver","Rcpp, RcppArmadillo","boot, latticeExtra, directlabels, shiny, knitr, markdown,
+Rsolnp, nloptr, sirt, plink, mirtCAT",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
+"misc3d","misc3d","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9-1",NA,NA,"grDevices, graphics, stats, tcltk",NA,"rgl, tkrplot, MASS",NA,"GPL",NA,NA,NA,NA,"no","4.2.2"
+"mlogit","mlogit","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-1",NA,"R (>= 2.10), dfidx","Formula, zoo, lmtest, statmod, MASS, Rdpack",NA,"knitr, car, nnet, lattice, AER, ggplot2, texreg, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"mnormt","mnormt","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.1.1",NA,"R (>= 2.2.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"ModelMetrics","ModelMetrics","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.2.2",NA,"R (>= 3.2.2)","Rcpp, data.table","Rcpp","testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"multicool","multicool","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1-12",NA,"methods, Rcpp (>= 0.11.2)",NA,"Rcpp",NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"munsell","munsell","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"mvtnorm","mvtnorm","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-3",NA,"R(>= 3.5.0)","stats, methods",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"nloptr","nloptr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,NA,NA,"testthat","knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr",NA,"LGPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
+"numDeriv","numDeriv","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"oddsratio","oddsratio","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0.1",NA,"R (>= 3.0.0)","ggplot2 (>= 3.0.0), mgcv, stats,",NA,"knitr, MASS, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"openxlsx","openxlsx","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.2",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"orthopolynom","orthopolynom","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0-6.1",NA,"R (>= 2.0.1)","polynom, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"parallelly","parallelly","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.32.1",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
+"parsedate","parsedate","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,NA,NA,NA,"covr, testthat, withr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"pastecs","pastecs","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.3.21",NA,NA,"boot, stats, graphics, utils, grDevices",NA,"svUnit, covr",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"pbapply","pbapply","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.6-0",NA,"R (>= 3.2.0)","parallel",NA,"shiny",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"pcaPP","pcaPP","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0-3",NA,NA,"mvtnorm, methods",NA,"robustbase",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
+"permute","permute","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9-7",NA,"R (>= 2.14.0)","stats",NA,"vegan (>= 2.0-0), testthat (>= 0.5), parallel, knitr,
+rmarkdown, bookdown, sessioninfo",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"pillar","pillar","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.8.1",NA,NA,"cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
+(>= 1.1.0), utils, vctrs (>= 0.3.8)",NA,"bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"pixmap","pixmap","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4-12",NA,NA,"methods, graphics, grDevices",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"pkgbuild","pkgbuild","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4.0",NA,"R (>= 3.4)","callr (>= 3.2.0), cli (>= 3.4.0), crayon, desc, prettyunits,
+processx, R6, rprojroot, withr (>= 2.3.0)",NA,"covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>=
+3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"pkgconfig","pkgconfig","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,NA,"utils",NA,"covr, testthat, disposables (>= 1.0.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"pkgload","pkgload","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.3.2",NA,"R (>= 3.4.0)","cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
+1.0.3), rprojroot, utils, withr (>= 2.4.3)",NA,"bitops, covr, mathjaxr, mockr, pak, pkgbuild, Rcpp, remotes,
+rstudioapi, testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"plogr","plogr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,NA,NA,NA,"Rcpp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"plot3D","plot3D","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4",NA,"R (>= 2.15)","misc3d, stats, graphics, grDevices, methods",NA,NA,NA,"GPL (>= 3.0)",NA,NA,NA,NA,"no","4.2.2"
+"plyr","plyr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.8.8",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"png","png","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1-7",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"polynom","polynom","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4-1",NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"pracma","pracma","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.4.2",NA,"R (>= 3.1.0)","graphics, grDevices, stats, utils",NA,"NlcOptim, quadprog",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
+"praise","praise","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"prettyunits","prettyunits","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,NA,NA,NA,"codetools, covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"pROC","pROC","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.18.0",NA,"R (>= 2.14)","methods, plyr, Rcpp (>= 0.11.1)","Rcpp","microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
+"processx","processx","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.8.0",NA,"R (>= 3.4.0)","ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.7.0), cli (>= 3.3.0), codetools, covr, curl,
+debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"prodlim","prodlim","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2019.11.13",NA,"R (>= 2.9.0)","Rcpp (>= 0.11.5), stats, grDevices, graphics, survival,
+KernSmooth, lava","Rcpp",NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"profvis","profvis","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.7",NA,"R (>= 3.0)","htmlwidgets (>= 0.3.2), stringr",NA,"knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
+htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"progressr","progressr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.11.0",NA,"R (>= 3.5.0)","digest, utils",NA,"graphics, tcltk, beepr, crayon, pbmcapply, progress, purrr,
+foreach, plyr, doFuture, future, future.apply, furrr,
+rstudioapi, shiny, commonmark, base64enc, tools",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
+"promises","promises","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.0.1",NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
+knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"proto","proto","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,NA,NA,NA,"testthat, covr",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"proxy","proxy","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4-27",NA,"R (>= 3.4.0)","stats, utils",NA,"cba",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"ps","ps","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.7.2",NA,"R (>= 3.4)","utils",NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
+rlang, testthat (>= 3.0.0),",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"psych","psych","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.2.9",NA,NA,"mnormt,parallel,stats,graphics,grDevices,methods,lattice,nlme",NA,"psychTools, GPArotation, lavaan, lme4, Rcsdp, graph, knitr,
+Rgraphviz",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"purrr","purrr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.5",NA,"R (>= 3.2)","magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), httr, knitr, rmarkdown,
+testthat, tibble, tidyselect, vctrs",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"quantreg","quantreg","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","5.94",NA,"R (>= 3.5), stats, SparseM","methods, graphics, Matrix, MatrixModels, survival, MASS",NA,"tripack, interp, rgl, logspline, nor1mix, Formula, zoo,
+R.rsp, conquer",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"R6","R6","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.0)",NA,NA,"testthat, pryr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"rainbow","rainbow","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.7",NA,"R (>= 4.0.0), MASS, pcaPP","hdrcde, cluster, colorspace, ks, methods",NA,"forecast",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"rappdirs","rappdirs","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"rbibutils","rbibutils","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.2.10",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"RColorBrewer","RColorBrewer","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-3",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"Apache License 2.0",NA,NA,NA,NA,"no","4.2.2"
+"Rcpp","Rcpp","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.9",NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"RcppArmadillo","RcppArmadillo","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.11.4.2.1",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.0), stats, utils, methods","Rcpp","tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"RcppCCTZ","RcppCCTZ","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.12",NA,NA,"Rcpp (>= 0.11.0)","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"RcppDate","RcppDate","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.0.3",NA,NA,NA,NA,"Rcpp",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"RcppEigen","RcppEigen","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.3.9.3",NA,"R (>= 3.6.0)","Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, tinytest, pkgKitten, microbenchmark",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"RcppTOML","RcppTOML","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.2",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.5)","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"Rdpack","Rdpack","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.4",NA,"R (>= 2.15.0), methods","tools, utils, rbibutils (>= 1.3)",NA,"grDevices, testthat, rstudioapi, rprojroot, gbRd",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"recipes","recipes","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.3",NA,"dplyr, R (>= 3.4)","cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue,
+gower, hardhat (>= 1.2.0), ipred (>= 0.9-12), lifecycle (>=
+1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>=
+0.2.3), rlang (>= 1.0.3), stats, tibble, tidyr (>= 1.0.0),
+tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr",NA,"covr, ddalpha, dials (>= 1.0.0), ggplot2, igraph, kernlab,
+knitr, modeldata (>= 0.1.1), parsnip (>= 0.1.7), RANN,
+RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2,
+testthat (>= 3.0.0), workflows, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"rematch","rematch","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,NA,NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"rematch2","rematch2","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.1.2",NA,NA,"tibble",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"remotes","remotes","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.4.2",NA,"R (>= 3.0.0)","methods, stats, tools, utils",NA,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, webfakes, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"reshape","reshape","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.8.9",NA,"R (>= 2.6.1)","plyr",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"reshape2","reshape2","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4.4",NA,"R (>= 3.1)","plyr (>= 1.8.1), Rcpp, stringr","Rcpp","covr, lattice, testthat (>= 0.8.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"rgl","rgl","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.110.2",NA,"R (>= 3.3.0)","graphics, grDevices, stats, utils, htmlwidgets, htmltools,
+knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc,
+mime",NA,"MASS, rmarkdown, deldir (>= 1.0-4), orientlib, lattice,
+misc3d, magick, plotrix (>= 3.7-3), tripack, interp,
+alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit
+(>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny,
+manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8,
+chromote","waldo","GPL",NA,NA,NA,NA,"yes","4.2.2"
+"rlang","rlang","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,"R (>= 3.5.0)","utils",NA,"cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
+methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
+usethis, vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"rmarkdown","rmarkdown","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.18",NA,"R (>= 3.0)","bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.5.1),
+jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=
+1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml
+(>= 2.1.19)",NA,"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
+(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
+3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"robustbase","robustbase","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.95-0",NA,"R (>= 3.5.0)","stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"rprojroot","rprojroot","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,"R (>= 3.0.0)",NA,NA,"covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"rrcov","rrcov","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.7-2",NA,"R (>= 2.10), robustbase (>= 0.92.1), methods","stats, stats4, mvtnorm, lattice, pcaPP",NA,"grid, MASS",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
+"rstudioapi","rstudioapi","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.14",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"sass","sass","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.3",NA,NA,"fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",NA,"testthat, knitr, rmarkdown, withr, shiny, curl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"scales","scales","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.1",NA,"R (>= 3.2)","farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, rlang (>= 1.0.0), viridisLite",NA,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+testthat (>= 3.0.0), waldo (>= 0.4.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"selectr","selectr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4-2",NA,"R (>= 3.0)","methods, stringr, R6",NA,"testthat, XML, xml2",NA,"BSD_3_clause + file LICENCE",NA,NA,NA,NA,"no","4.2.2"
+"sessioninfo","sessioninfo","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.2",NA,"R (>= 2.10)","cli (>= 3.1.0), tools, utils",NA,"callr, covr, mockery, reticulate, rmarkdown, testthat, withr",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"sfsmisc","sfsmisc","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-15",NA,"R (>= 3.3.0)","grDevices, utils, stats, tools",NA,"datasets, tcltk, cluster, lattice, MASS, Matrix, nlme,
+lokern, Rmpfr, gmp","mgcv, rpart, nor1mix, polycor, sm, tikzDevice, e1071, Hmisc,
+pastecs, polynom, robustbase","GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"shiny","shiny","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.7.3",NA,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>=
+0.5.2), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises
+(>= 1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>=
+1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>=
+0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)",NA,"datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, yaml, future, dygraphs, ragg, showtext, sass",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"shinydashboard","shinydashboard","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.7.2",NA,"R (>= 3.0)","utils, shiny (>= 1.0.0), htmltools (>= 0.2.6), promises",NA,NA,NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"showimage","showimage","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,NA,"png, tools",NA,"covr, testthat",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"sn","sn","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.1.0",NA,"R (>= 3.0.0), methods, stats4","mnormt (>= 2.0.0), numDeriv, utils, quantreg",NA,"R.rsp",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"sourcetools","sourcetools","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1.7",NA,"R (>= 3.0.2)",NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"sp","sp","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.5-1",NA,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
+maptools, deldir, knitr, rmarkdown, sf",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"spam","spam","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.9-1",NA,"R (>= 3.5)","dotCall64, grid, methods",NA,"spam64, fields, Matrix, testthat, R.rsp, truncdist, knitr,
+rmarkdown",NA,"LGPL-2 | BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"SparseM","SparseM","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.81",NA,"R (>= 2.15), methods","graphics, stats, utils",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"spData","spData","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.2.1",NA,"R (>= 3.3.0)","sp",NA,"foreign, sf (>= 0.9-1), spDataLarge (>= 0.4.0), spdep,
+spatialreg,",NA,"CC0",NA,NA,NA,NA,"no","4.2.2"
+"splancs","splancs","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.01-43",NA,"R (>= 2.10.0), sp (>= 0.9)","stats, graphics, grDevices, methods",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"SQUAREM","SQUAREM","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2021.1",NA,"R (>= 3.0)",NA,NA,"setRNG",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"startupmsg","startupmsg","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.9.6",NA,"R(>= 1.8.0)",NA,NA,NA,NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
+"statmod","statmod","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4.37",NA,"R (>= 3.0.0)","stats, graphics",NA,"MASS, tweedie",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"stringi","stringi","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.7.8",NA,"R (>= 3.1)","tools, utils, stats",NA,NA,NA,"file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"stringr","stringr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"R (>= 3.1)","glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",NA,"GPL-2 | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"sys","sys","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.4.1",NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"TeachingDemos","TeachingDemos","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.12",NA,"R (>= 2.10)",NA,NA,"tkrplot, lattice, MASS, rgl, tcltk, tcltk2, png, ggplot2,
+logspline, maptools, R2wd, manipulate",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
+"testthat","testthat","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.1.5",NA,"R (>= 3.1)","brio, callr (>= 3.5.1), cli (>= 3.4.0), desc, digest, ellipsis
+(>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods,
+pkgload, praise, processx, ps (>= 1.3.4), R6 (>= 2.2.0), rlang
+(>= 1.0.1), utils, waldo (>= 0.4.0), withr (>= 2.4.3)",NA,"covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery,
+rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"tibble","tibble","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","3.1.8",NA,"R (>= 3.1.0)","fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+pillar (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs
+(>= 0.3.8)",NA,"bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms,
+htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
+pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr,
+withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"tidyr","tidyr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.1",NA,"R (>= 3.1)","dplyr (>= 1.0.0), ellipsis (>= 0.1.0), glue, lifecycle,
+magrittr, purrr, rlang, tibble (>= 2.1.1), tidyselect (>=
+1.1.0), utils, vctrs (>= 0.3.7)","cpp11 (>= 0.4.0)","covr, data.table, jsonlite, knitr, readr, repurrrsive (>=
+1.0.0), rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"tidyselect","tidyselect","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,"R (>= 3.4)","cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
+(>= 1.0.4), vctrs (>= 0.4.1), withr",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
+testthat (>= 3.1.1), tibble (>= 2.1.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"timechange","timechange","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.1.1",NA,"R (>= 3.3)",NA,"cpp11 (>= 0.2.7)","testthat, knitr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"timeDate","timeDate","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","4021.106",NA,"R (>= 3.6.0)","graphics, utils, stats, methods",NA,"date, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"tinytex","tinytex","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.42",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"tis","tis","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.39",NA,"R (>= 2.3)",NA,NA,"reshape, scales","zoo, ggplot2, graphics","Unlimited",NA,NA,NA,NA,"yes","4.2.2"
+"tzdb","tzdb","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.3.0",NA,"R (>= 3.4.0)",NA,"cpp11 (>= 0.4.2)","covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"utf8","utf8","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.2.2",NA,"R (>= 2.10)",NA,NA,"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"uuid","uuid","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.1-0",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"vctrs","vctrs","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.5.1",NA,"R (>= 3.3)","cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.0.6)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), withr, xml2, waldo (>= 0.2.0),
+zeallot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"vegan","vegan","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.6-4",NA,"permute (>= 0.9-0), lattice, R (>= 3.4.0)","MASS, cluster, mgcv",NA,"parallel, tcltk, knitr, markdown",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"viridis","viridis","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.6.2",NA,"R (>= 2.10), viridisLite (>= 0.4.0)","stats, ggplot2 (>= 1.0.1), gridExtra",NA,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, raster, rasterVis, httr, mapproj, vdiffr, svglite
+(>= 1.2.0), testthat, covr, rmarkdown, rgdal, maps",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"viridisLite","viridisLite","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.1",NA,"R (>= 2.10)",NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"waldo","waldo","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4.0",NA,NA,"cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang
+(>= 1.0.0), tibble",NA,"covr, R6, testthat (>= 3.0.0), withr, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"warp","warp","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,"R (>= 3.2)",NA,NA,"covr, testthat (>= 2.1.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"whisker","whisker","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.4",NA,NA,NA,NA,"markdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"withr","withr","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.5.0",NA,"R (>= 3.2.0)","graphics, grDevices, stats",NA,"callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown
+(>= 2.12), RSQLite, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"wk","wk","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.7.0",NA,"R (>= 2.10)",NA,NA,"testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"xfun","xfun","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","0.39",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes,
+pak, rhub, renv, curl, jsonlite, magick, yaml, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"xmlparsedata","xmlparsedata","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.5",NA,"R (>= 3.0.0)",NA,NA,"covr, testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"xopen","xopen","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,"R (>= 3.1)","processx",NA,"ps, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"xtable","xtable","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.8-4",NA,"R (>= 2.10.0)","stats, utils",NA,"knitr, plm, zoo, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+"yaml","yaml","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.3.6",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"zip","zip","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","2.2.2",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"zoo","zoo","/home/diego/R/x86_64-pc-linux-gnu-library/4.2","1.8-11",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
+stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"base","base","/usr/lib/R/library","4.2.2","base",NA,NA,NA,"methods",NA,"Part of R 4.2.2",NA,NA,NA,NA,NA,"4.2.2"
+"boot","boot","/usr/lib/R/library","1.3-28","recommended","R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,"Unlimited",NA,NA,NA,NA,"no","4.0.5"
+"class","class","/usr/lib/R/library","7.3-20","recommended","R (>= 3.0.0), stats, utils","MASS",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.1.2"
+"cluster","cluster","/usr/lib/R/library","2.1.4","recommended","R (>= 3.5.0)","graphics, grDevices, stats, utils",NA,"MASS, Matrix",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"codetools","codetools","/usr/lib/R/library","0.2-18","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"compiler","compiler","/usr/lib/R/library","4.2.2","base",NA,NA,NA,NA,NA,"Part of R 4.2.2",NA,NA,NA,NA,NA,"4.2.2"
+"datasets","datasets","/usr/lib/R/library","4.2.2","base",NA,NA,NA,NA,NA,"Part of R 4.2.2",NA,NA,NA,NA,NA,"4.2.2"
+"foreign","foreign","/usr/lib/R/library","0.8-82","recommended","R (>= 4.0.0)","methods, utils, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.1.2"
+"graphics","graphics","/usr/lib/R/library","4.2.2","base",NA,"grDevices",NA,NA,NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"grDevices","grDevices","/usr/lib/R/library","4.2.2","base",NA,NA,NA,"KernSmooth",NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"grid","grid","/usr/lib/R/library","4.2.2","base",NA,"grDevices, utils",NA,NA,NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"KernSmooth","KernSmooth","/usr/lib/R/library","2.23-20","recommended","R (>= 2.5.0), stats",NA,NA,"MASS, carData",NA,"Unlimited",NA,NA,NA,NA,"yes","4.0.5"
+"lattice","lattice","/usr/lib/R/library","0.20-45","recommended","R (>= 3.0.0)","grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra","chron","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.0"
+"MASS","MASS","/usr/lib/R/library","7.3-58","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival, gamair",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
+"Matrix","Matrix","/usr/lib/R/library","1.5-1","recommended","R (>= 3.5.0)","methods, graphics, grid, stats, utils, lattice",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
+spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.1"
+"methods","methods","/usr/lib/R/library","4.2.2","base",NA,"utils, stats",NA,"codetools",NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"mgcv","mgcv","/usr/lib/R/library","1.8-41","recommended","R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"nlme","nlme","/usr/lib/R/library","3.1-160","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"nnet","nnet","/usr/lib/R/library","7.3-18","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
+"parallel","parallel","/usr/lib/R/library","4.2.2","base",NA,"tools, compiler",NA,"methods","snow, nws, Rmpi","Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"rpart","rpart","/usr/lib/R/library","4.1.19","recommended","R (>= 2.15.0), graphics, stats, grDevices",NA,NA,"survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
+"spatial","spatial","/usr/lib/R/library","7.3-11","recommended","R (>= 3.0.0), graphics, stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.0"
+"splines","splines","/usr/lib/R/library","4.2.2","base",NA,"graphics, stats",NA,"Matrix, methods",NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"stats","stats","/usr/lib/R/library","4.2.2","base",NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"stats4","stats4","/usr/lib/R/library","4.2.2","base",NA,"graphics, methods, stats",NA,NA,NA,"Part of R 4.2.2",NA,NA,NA,NA,NA,"4.2.2"
+"survival","survival","/usr/lib/R/library","3.4-0","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"tcltk","tcltk","/usr/lib/R/library","4.2.2","base",NA,"utils",NA,NA,NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"tools","tools","/usr/lib/R/library","4.2.2","base",NA,NA,NA,"codetools, methods, xml2, curl, commonmark, knitr, xfun,
+mathjaxr",NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
+"utils","utils","/usr/lib/R/library","4.2.2","base",NA,NA,NA,"methods, xml2, commonmark, knitr",NA,"Part of R 4.2.2",NA,NA,NA,NA,"yes","4.2.2"
