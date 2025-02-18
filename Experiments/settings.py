@@ -5,7 +5,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.neural_network import MLPClassifier
 from xgboost import XGBClassifier
-from sklearn.tree import DecisionTreeClassifier
 from aif360.sklearn.inprocessing import AdversarialDebiasing
 from sklearn.linear_model import LogisticRegression
 
