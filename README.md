@@ -20,9 +20,9 @@ If you use any part of this code in your research, please cite it using the foll
 
 and
 
-'''latex
+```latex
 will be available soon
-'''
+```
 
 ## Abstract of the paper: A DIF-Driven Threshold Tuning Method for Improving Group Fairness
 
